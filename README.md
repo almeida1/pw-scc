@@ -14,11 +14,11 @@ O processo de desenvolvimento segue um modelo interativo e incremental e utiliza
 #### 1. Planejamento da interação
 Durante a fase de planejamento as funcionalidades nesta interação são selecionadas do backlog do produto. 
 ##### Backlog do produto
-REQ01 - Cadastrar cliente
-REQ02 - Consultar cliente
-REQ03 - Alterar cliente
-REQ04 - Excluir cliente
-REQ05 - Login de Usuário
+REQ01 - Cadastrar cliente <br/>
+REQ02 - Consultar cliente <br/>
+REQ03 - Alterar cliente   <br/>
+REQ04 - Excluir cliente   <br/>
+REQ05 - Login de Usuário  <br/>
 
 #### 2. Estratégia de desenvolvimento.
 Na primeira interação a meta é criar um baseline (base de sustentação) da arquitetura do sistema a fim de definir como o código será organizado nas próximas interações. A arquitetura se desenvolve a partir de um exame dos requisitos mais significativos (aqueles que têm grande impacto na arquitetura do sistema) e de uma avaliação de risco. A estabilidade da arquitetura é avaliada através de um ou mais protótipos de arquitetura. O projeto do “Sistema de Controle de Clientes” deve se utilizar de uma arquitetura que permita flexibilidade na configuração do sistema de persistência (mudança do sistema de gerenciamento de banco de dados) e manutenções na interface de usuário com poucos efeitos colaterais. A arquitetura selecionada para atender esta necessidade é a arquitetura MVC. 
