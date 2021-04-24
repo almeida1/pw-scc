@@ -75,7 +75,7 @@ public class ClienteController {
 		umCliente.setCpf(cliente.getCpf());
 		umCliente.setNome(cliente.getNome());
 		umCliente.setEmail(cliente.getEmail());
-		umCliente.setCep(cliente.getCep());
+		umCliente.setCep(cliente.getCep());// deve-se obter o endereco antes de salvar
 		modelAndView = servico.saveOrUpdate(umCliente);
 		
 		return modelAndView;
