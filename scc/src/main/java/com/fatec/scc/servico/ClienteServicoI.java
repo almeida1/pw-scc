@@ -35,7 +35,9 @@ public class ClienteServicoI implements ClienteServico {
 	public Cliente findById(Long id) {
 		return repository.findById(id).get();
 	}
-
+	/**
+	 * valida as informações do cliente e salva
+	 */
 	public ModelAndView saveOrUpdate(Cliente cliente) {
 		ModelAndView modelAndView = new ModelAndView("consultarCliente");
 		try {
